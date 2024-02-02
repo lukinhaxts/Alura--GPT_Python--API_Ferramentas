@@ -1,0 +1,13 @@
+prefix=C:/Programação/Alura/Formação OpenAI e Python/Projeto---3572/curso_1_openai/Library
+exec_prefix=C:/Programação/Alura/Formação OpenAI e Python/Projeto---3572/curso_1_openai/Library
+libdir=C:/Programação/Alura/Formação OpenAI e Python/Projeto---3572/curso_1_openai/Library/lib
+sharedlibdir=C:/Programação/Alura/Formação OpenAI e Python/Projeto---3572/curso_1_openai/Library/lib
+includedir=C:/Programação/Alura/Formação OpenAI e Python/Projeto---3572/curso_1_openai/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
