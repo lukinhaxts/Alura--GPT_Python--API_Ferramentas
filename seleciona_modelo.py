@@ -5,7 +5,7 @@ import tiktoken
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
 modelo = "gpt-4"
 
 codificador = tiktoken.encoding_for_model(modelo)
