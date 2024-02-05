@@ -2,24 +2,22 @@
 
 ## ⚙️ Configuração do Ambiente
 
-### Criando e Ativando o Ambiente Virtual
+### Ativando o Ambiente Virtual
 
 **Windows:**
 ```bash
-python -m venv curso_1_openai
-curso_1_openai\Scripts\activate
+.\curso_1_openai\Scripts\activate
 ```
 
 **Mac/Linux:**
 ```bash
-python3 -m venv curso_1_openai
-source curso_1_openai/bin/activate
+source ./curso_1_openai/bin/activate
 ```
 
-### Instalação das Bibliotecas
+### Inserindo sua API Key
 
-```bash
-pip install openai python-dotenv tiktoken
+Após criar sua API Key na plataforma da OpenAI, criar um arquivo chamado ```.env```, e inserir sua key no seguinte formato:
+
 ```
-
-
+OPENAI_API_KEY = "INSIRA SUA KEY"
+```
