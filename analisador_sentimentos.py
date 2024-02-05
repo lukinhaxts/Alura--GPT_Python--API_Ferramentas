@@ -67,4 +67,7 @@ def analisador_sentimentos(produto):
     except openai.APIError as e:
         print(f"Erro de API: {e}")
 
-analisador_sentimentos("Maquiagem mineral")
+lista_produtos = ["Camisetas de algodão orgânico", "Jeans feitos com materiais reciclados", "Maquiagem mineral"]
+
+for produto in lista_produtos:
+    analisador_sentimentos(produto)
